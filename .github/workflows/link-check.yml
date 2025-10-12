@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.9.3
+        uses: lycheeverse/lychee-action@v2.6.1
         with:
           # Check all HTML files in the repository and crash if broken links are found
           args: --accept=200,206,429 --include-fragments --no-progress --max-concurrency 10 --timeout 30 --exclude="localhost|127.0.0.1|0.0.0.0" "**/*.html"
