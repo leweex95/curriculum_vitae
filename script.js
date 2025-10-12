@@ -277,6 +277,17 @@ document.getElementById('download-pdf').addEventListener('click', () => {
     doc.save('Levente_Csibi_Resume.pdf');
 });
 
+// Email Dropdown Toggle
+function toggleEmailDropdown() {
+    const dropdown = document.getElementById('email-dropdown');
+    
+    if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+        dropdown.style.display = 'block';
+    } else {
+        dropdown.style.display = 'none';
+    }
+}
+
 // Activity Description Toggle
 function toggleActivityDescription(descId) {
     const desc = document.getElementById(descId);
