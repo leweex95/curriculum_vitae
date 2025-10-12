@@ -591,11 +591,11 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.35rem;
     padding: 1rem;
     background-color: var(--section-bg);
     border-radius: 8px;
-    width: 180px;
+    width: 200px;
     height: 90px;
     box-sizing: border-box;
     flex-shrink: 0;
